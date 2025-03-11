@@ -36,6 +36,7 @@ typedef long long jlong;
 typedef signed char jbyte;
 
 __declspec(dllexport) DWORD NvOptimusEnablement = 0x00000001;
+
 __declspec(dllexport) int AmdPowerXpressRequestHighPerformance = 1;
 
 #endif /* !_JAVASOFT_JNI_MD_H_ */
